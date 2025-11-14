@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernel Masters | Команда OSDev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Верхний бар -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <!-- Вставь сюда свой логотип -->
+            <img src="logo.jpg" alt="" class="logo-img">
+            <span class="logo-text">Kernel Masters</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Главная секция -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Cyber Team</h1>
+        <p class="hero-subtitle">Марк и Игорь • Разработка операционных систем</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Наши проекты</a>
+            <a href="#about" class="btn btn-secondary">О команде</a>
+        </div>
+    </div>
+    <div class="hero-background"></div>
+</section>
+
+<!-- О нас -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">О нашей команде</h2>
+        <div class="team-grid">
+            <div class="member-card">
+                <div class="member-avatar">М</div>
+                <h3>Марк</h3>
+                <p class="member-role">Системный программист</p>
+                <p>Увлекаюсь низкоуровневым программированием, разработкой ОС и компьютерной архитектурой. Люблю разбираться в том, как работают системы на самом глубоком уровне.</p>
+                <div class="member-skills">
+                    <span class="skill">C/C++</span>
+                    <span class="skill">OSDev</span>
+                </div>
+            </div>
+
+            <div class="member-card">
+                <div class="member-avatar">И</div>
+                <h3>Игорь</h3>
+                <p class="member-role">Разработчик ядра</p>
+                <p>Интересуюсь созданием компиляторов, управлением памятью и многозадачностью. Нравится решать сложные системные задачи и оптимизировать код.</p>
+                <div class="member-skills">
+                    <span class="skill">Python</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Проекты -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Наши проекты</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">⚙️</div>
+                <h3>CoolOS</h3>
+                <p>Простое микроядро с базовой многозадачностью, управлением памятью и системными вызовами. Написано на C.</p>
+                <div class="project-status status-dev">В разработке</div>
+                <div class="project-tech">
+                    <span>C</span>
+                    <span>QEMU</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🚀</div>
+                <p>Загрузчик ОС Grub с выводом текста, базовой инициализацией и переходом в защищённый режим.</p>
+                <div class="project-status status-done">Завершён</div>
+                <div class="project-tech">
+                    <span>Assembly</span>
+                    <span>BIOS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🔧</div>
+                <h3>System Utilities</h3>
+                <p>Набор системных утилит для работы с файлами, процессами и мониторинга системы.</p>
+                <div class="project-status status-plan">Планируется</div>
+                <div class="project-tech">
+                    <span>C</span>
+                    <span>Shell</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Навыки -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Технологии и навыки</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Языки программирования</h3>
+                <div class="skills-list">
+                    <span class="skill-item">C / C++</span>
+                    <span class="skill-item">Assembly(совсем немного) (x86)</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">Bash</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Инструменты</h3>
+                <div class="skills-list">
+                    <span class="skill-item">QEMU</span>
+                    <span class="skill-item">clang</span>
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">Make</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Направления</h3>
+                <div class="skills-list">
+                    <span class="skill-item">Разработка ОС</span>
+                    <span class="skill-item">Системное программирование</span>
+                    <span class="skill-item">Драйверы устройств</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Контакты -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Свяжитесь с нами</h2>
+        <p class="contact-text">Мы открыты к новым проектам и сотрудничеству!</p>
+        <div class="contact-links">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWstwNrcxkvPXWMVrXDBbsddBhzSPBrqXTfxcTFjpmvPjgGQPVxSlTGHDzTbgvghDJbNsPzZg" class="contact-link">
+                📧 Email
+            </a>
+            <a href="https://https://github.com/Mark201427awP?tab=overview&from=2025-11-01&to=2025-11-14" class="contact-link">
+                💻 GitHub
+            </a>
+            <a href="#" class="contact-link">
+                💬 Discord
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Kernel Masters. Все права защищены.</p>
+        <p>Сделано с ❤️ для OSDev сообщества</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
